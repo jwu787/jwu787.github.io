@@ -1,0 +1,21 @@
+# Site settings
+title: Student Experience Blog
+header-img: img/home-bg.png
+email: jwu787@yahoo.com
+copyright_name: jwu787
+description: > # this means to ignore newlines until "baseurl:"
+  Learning to Code
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  jwu787
+learn_profile: jwu787
+email_username: jwu787@yahoo.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
